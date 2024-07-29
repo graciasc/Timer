@@ -1,23 +1,21 @@
 # Timer
-> Progressive webapp
+> This is a Progressive webapp that will track a fast / slow timer for people trying to track there pace.
 
-## Goal Working Prototype in 24 Hours 
-
-## Groomed Design / Implementation in 1 Week
+## Todos:
+- Goal Working Prototype in 24 Hours 
+-  Groomed Design / Implementation in 1 Week
 # App 
 - two inputs : minutes / seconds 
 - label ( fast / slow )
 - container / maybe the fullscreen / black / white
 - start button
 - sound / web audio / announce the label
+- Use web service worker to allow for sound broadcasting when phone is locked. 
 
+## Web Server Worker API - offline access (pwa)
+**details coming soon**
 
-Use web service worker to allow for sound broadcasting when phone is locked. 
-
-Web Server Worker API - offline access (pwa)
-**requirement**
-
-Web Speech API example
+## Web Speech API example
 
 ```js
 // Function to read text from the webpage
